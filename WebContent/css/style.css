@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-   font-size: 24px;
+    font-size: 24px;
     display: inline;
 }
 
@@ -86,25 +86,6 @@ button {
     margin-bottom: 15px;
     color: #721c24;
     background-color: #f8d7da;
-    table#employee_list th {
-    width: 30%;
-    padding: 10px 2%;
-}
-
-table#employee_list td {
-    width: 29%;
-    padding: 10px 2%;
-}
-
-tr.row1 {
-        background-color: #f2f2f2;
-}
-tr.row0 {
-        background-color: #ffffff;
-}
-
-select {
-    height: 30px;
 }
 #header_menu {
     width: 57%;
@@ -127,6 +108,22 @@ select {
 
 h1 a {
     color: #eeeeee;
+}
+table#employee_list th {
+    width: 30%;
+    padding: 10px 2%;
+}
+
+table#employee_list td {
+    width: 29%;
+    padding: 10px 2%;
+}
+
+tr.row1 {
+        background-color: #f2f2f2;
+}
+tr.row0 {
+        background-color: #ffffff;
 }
 table#report_list th {
     font-weight: bold;
@@ -153,4 +150,29 @@ pre {
 }
 h3 {
     font-size: larger;
+}
+select {
+    height: 30px;
+}
+#header_menu {
+    width: 57%;
+    padding-top: 17px;
+    padding-left: 3%;
+    display: inline-block;
+}
+
+#employee_name {
+    color: #cccccc;
+    width: 36%;
+    padding-right: 3%;
+    text-align: right;
+    display: inline-block;
+}
+
+#header a {
+    color: #eeeeee;
+}
+
+h1 a {
+    color: #eeeeee;
 }
